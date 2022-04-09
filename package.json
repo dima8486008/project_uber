@@ -1,0 +1,25 @@
+{
+  "name": "project-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dima8486008/project_uber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dima8486008/project_uber/issues"
+  },
+  "homepage": "https://github.com/dima8486008/project_uber#readme",
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "description": ""
+}
