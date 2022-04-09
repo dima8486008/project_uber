@@ -1,0 +1,395 @@
+@media ( max-width:1200px)
+    .menu
+        &_item
+            padding-right: 11px
+
+@media ( max-width:1200px)
+    .promo
+        .promo_header
+            font-size: 50px
+        .promo_subheader
+            font-size: 33px
+    .mobile
+        &_item
+            width: 300px
+
+@media ( max-width:991px)
+    .menu
+        padding-right: 0
+        padding-left: 0
+        &_item
+            padding-right: 10px
+        &_link
+            font-size: 13px
+    .subheader
+        .logo_img
+            width: 100%
+        .subheader_oficial
+            font-size: 12px
+        .subheader_tel
+            font-size: 18px
+        .subheader_btn
+            width: 100%
+            height: 45px
+            margin-top: 18px
+            font-size: 12px
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 25px
+    .cause
+        .title
+            font-size: 30px
+        &_wrk
+            flex-direction: column
+            align-items: center
+        &_dscr
+            margin-top: 20px
+    .mobile
+        .title
+            font-size: 30px
+        &_item
+            margin-left: 20px
+            font-size: 21px
+            
+    .selecttop
+        .title
+            font-size: 30px
+        &_block_img
+            width: 100%
+    .requirement
+        .title
+            font-size: 30px
+        &_title
+            font-size: 20px
+        &_list
+            font-size: 15px
+    .world
+        .title
+            font-size: 30px
+
+@media ( max-width:767px)
+    .menu
+        position: fixed
+        justify-content: center
+
+        top: 0
+        left: -100%
+        flex-direction: column
+        width: 50%
+        height: 100vh
+        background-color: rgba(0, 0,0 ,.7 )
+        padding: 20px 15px
+        transition: 0.5s
+        &_active
+            left: 0
+        &_item
+            border: 0
+            padding-right: 0
+            margin-top: 15px
+        &_link
+            font-size: 17px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 25px
+        height: 12px
+        
+        span
+            display: block
+            background-color: #fff
+            width: 100%
+            margin-bottom: 2px
+            height: 2px
+            transition: 0.6s
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: rotate(45deg)
+    .xs-inviz
+	    display: none
+    .xs-visible
+        display: block
+        font-size: 17px
+        font-weight: 400
+        text-transform: uppercase
+        color: #ffffff
+        text-decoration: none
+        text-align: center
+        margin-top: 5px
+        &:hover
+            color: #ffffff
+    .subheader
+        .subheader_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 5px
+    .promo
+        .promo_header
+            font-size: 32px
+        .promo_subheader
+            font-size: 21px
+    footer
+        .social_wraper
+            position: absolute
+            display: flex
+            height: 210px
+            width: 100%
+            align-items: flex-end
+            justify-content: center
+            padding-bottom: 20px
+
+            .social
+                position: static
+                // position: relative
+                width: 32px
+                height: 32px
+                border-radius: 100%
+                background-color: black
+                // top: 50px
+                display: flex
+                justify-content: center
+                align-items: center
+                color: white
+                text-decoration: none
+                &_fb
+                    margin-left: 0px
+                &_tw
+                    margin-left: 15px
+                &_in
+                    margin-left: 15px
+                &_inst
+                    margin-left: 15px
+@media ( max-width:575px)
+    nav
+        height: 30px
+    
+    .subheader
+        height: 60px
+        top: -20px
+        .subheader_oficial
+            display: none
+        .logo_link
+            margin-top: 17px
+        .subheader_btn            
+            width: 116px
+            height: 28px
+            font-size: 10px
+            font-weight: 400
+            text-transform: uppercase
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.2)
+            color: #ffffff
+            margin-top: 2px
+            &:hover
+                background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%)
+
+    .xs-visible
+        font-size: 12px
+        font-weight: 400
+        text-transform: uppercase
+    .menu
+        width: 80%
+        &_item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+    .hamburger
+        &_active 			
+            span 				
+                &:nth-child(1) 					
+                    transform: translateY(5px) rotate(-45deg) 				
+                &:nth-child(3) 					
+                    transform: translateY(5px) rotate(45deg)
+    .promo
+        min-height: 400px
+        padding-bottom: 35px
+        .promo_header
+            font-size: 30px
+            margin-top: 135px
+            padding: 0 26px
+            line-height: 40px
+
+        .promo_subheader
+            font-size: 20px
+            margin-top: 23px
+            line-height: 28px
+        .promo_dscr
+            display: none
+        .promo_btn
+            width: 216px
+            height: 56px
+            font-size: 16px
+            margin-top: 69px
+            &:hover
+                background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%)
+    .cause
+        padding-top: 22px
+        padding-bottom: 50px
+        .title 
+            font-size: 16px
+            margin-top: 15px
+        .cause_wrk
+            margin-top: 25px
+        .cause_dscr
+            width: 95%
+            margin: 25px auto
+        .cause_bcg
+            width: 100px
+            height: 100px
+        // .cause_icon
+        //     width: 50%
+    .mobile
+        padding-top: 22px
+        padding-bottom: 40px
+        .title
+            font-size: 16px
+            margin-top: 15px
+            line-height: 16px
+        .subtitle
+            font-size: 14px
+            line-height: 21px
+            font-weight: 400
+            margin-top: 11px
+        &_item
+            margin-left: 2px
+            font-size: 18px
+            margin: 0 auto 19px auto
+    .selecttop
+        padding: 25px 0 33px 0
+        height: auto
+        .title
+            display: none
+        .subtitle
+            display: none
+        &_block
+            top: 35px
+        .xs-visible-subtitle
+            font-size: 17px
+            font-weight: 300
+            line-height: 24px
+            color: #ffffff
+            display: block
+            margin-top: 50px
+            text-align: center
+    .selectbottom
+        display: none
+	
+    .requirement 		
+        padding: 25px 		
+        &_block  			
+            margin: 20px 0 0 0 
+        .requirement_title
+            font-size: 16px 
+        .requirement_subtitle
+            font-size: 14px		
+        .title  			
+            font-size: 16px 
+            margin-top: 15px		
+        &_list 			
+            padding-left: 30px 			
+            margin-top: 5px 			
+            li  				
+                font-size: 14px 				
+                margin-bottom: 5px 				
+                line-height: 20px 		
+                &_item  			
+                    font-size: 14px 			
+                    margin-top: 15px 	
+    .world 		
+        min-height: 360px 
+        max-height: 360px		
+        padding: 0
+        padding-bottom: 30px
+        &_bg
+            padding: 25px 0 30px 0 
+            height: auto
+            .title_w
+                font-size: 16px                
+                font-weight: 700
+                margin-top: 15px
+                line-height: 16px	
+            .subtitle_w   
+                font-size: 14px
+                margin-top: 10px
+                line-height: 14px	
+        &_city  			
+            width: 200px 			
+            display: block 						
+            line-height: 15px 
+            margin-top: 215px;	
+    footer  		
+        padding: 25px 0 20px 0
+        .footer_nav_list
+            padding: 0
+            justify-content: space-between
+            flex-wrap: wrap
+            &_b
+                padding-left: 32px 	
+                &_link
+                    margin-right: 24px
+        .footer_nav_list_item 
+            margin-right: 0	
+        .social_wraper
+            position: absolute
+            display: flex
+            height: 215px
+            width: 100%
+            align-items: flex-end
+            justify-content: center
+            padding-bottom: 20px
+
+            .social
+                position: static
+                // position: relative
+                width: 32px
+                height: 32px
+                border-radius: 100%
+                background-color: black
+                // top: 50px
+                display: flex
+                justify-content: center
+                align-items: center
+                color: white
+                text-decoration: none
+                &_fb
+                    margin-left: 0px
+                &_tw
+                    margin-left: 10px
+                &_in
+                    margin-left: 10px
+                &_inst
+                    margin-left: 10px
+
+
+
+
+
+        // .social
+        //     top: 190px
+        // .social_fb
+        //     margin-left: 83px
+        // .social_tw
+        //     margin-left: 124px
+        // .social_in
+        //     margin-left: 165px
+        // .social_inst
+        //     margin-left: 204px
+            
+            
+
+    
+    // .selectbottom
+    //     display: none
+    // footer
+    //     display: none
